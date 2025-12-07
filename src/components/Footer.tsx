@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
               <Compass className="h-8 w-8 text-primary" />
-              <span className="font-display text-2xl font-semibold">Wanderlust</span>
+              <span className="font-display text-2xl font-semibold">TripTrekker</span>
             </Link>
             <p className="text-background/70 text-sm leading-relaxed">
               Discover extraordinary destinations and create unforgettable memories with our curated travel experiences.
@@ -73,7 +73,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3 text-background/70 text-sm">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
-                hello@wanderlust.com
+                hello@triptrekker.com
               </li>
             </ul>
           </div>
@@ -81,7 +81,7 @@ const Footer = () => {
 
         <div className="border-t border-background/10 mt-12 pt-8 text-center">
           <p className="text-background/50 text-sm">
-            © {new Date().getFullYear()} Wanderlust Travel. All rights reserved.
+            © {new Date().getFullYear()} TripTrekker. All rights reserved.
           </p>
         </div>
       </div>

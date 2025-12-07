@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-2 group">
             <Compass className="h-8 w-8 text-primary transition-transform duration-300 group-hover:rotate-45" />
             <span className="font-display text-xl md:text-2xl font-semibold text-foreground">
-              Wanderlust
+              TripTrekker
             </span>
           </Link>
 
